@@ -1,3 +1,9 @@
+/**
+ * Part 2 - Algolia Insights Implementation
+ * Configures InstantSearch with click, conversion, view, and filter event tracking.
+ * Includes searchable attributes and custom ranking for optimal relevance.
+ */
+
 import algoliasearch from 'algoliasearch';
 import instantsearch from 'instantsearch.js';
 import { searchBox, hits, pagination, refinementList } from 'instantsearch.js/es/widgets';
